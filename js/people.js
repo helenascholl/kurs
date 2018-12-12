@@ -5,7 +5,7 @@ const people = [
     'Schätz Anna',
     'Plöchl Daniela',
     'Steiner Emely',
-    'Dumpfarth Felix',
+    'Dumfarth Felix',
     'Klausner Florian',
     'Turner Isabel',
     'Fitzinger Jakob',
