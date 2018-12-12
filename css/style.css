@@ -1,5 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10vh 0;
+    background-color: #f7f7f7;
+}
 .person {
-    width: 20vw;
-    height: 10vh;
-    margin: 1vw;
+    width: 40vw;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5vw;
+    user-select: none;
+    border: 1px solid black;
+    margin: 0.3vw auto;
+    padding: 0.3vw;
+}
+.list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 67vh;
+}
+.wrapper {
+    height: 80vh;
+    box-sizing: border-box;
+    width: 42vw;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#buttons {
+    height: 7vw;
+    width: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1 {
+    font-size: 4vh;
+    text-align: center;
+    margin: 4vh 0 0 0;
+    padding-bottom: 4vh;
+    border-bottom: 1px solid black;
 }

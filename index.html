@@ -4,12 +4,34 @@
     <meta charset="utf-8">
     <title>Kurs</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" href="./img/icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <style>
+      .fas {
+        display: block;
+        height: 2vw;
+        width: 3vw;
+        font-size: 1vw;
+        margin: 0.3vw;
+      }
+    </style>
   </head>
-  <body id="body">
-    <div id="leftList"></div>
-    <div id="rightList"></div>
-    <button id="buttonLeft">&lt;--</button>
-    <button id="buttonRight">--&gt;</button>
+  <body onload="addPeople();">
+
+    <div class="wrapper" id="leftWrapper">
+      <h1>Angemeldet</h1>
+      <div class="list" id="leftList"></div>
+    </div>
+
+    <div id="buttons">
+      <button id="buttonLeft" class="fas fa-long-arrow-alt-left"></button>
+      <button id="buttonRight" class="fas fa-long-arrow-alt-right"></button>
+    </div>
+
+    <div class="wrapper" id="rightWrapper">
+      <h1>Nicht Angemeldet</h1>
+      <div class="list" id="rightList"></div>
+    </div>
 
     <script src="./js/people.js"></script>
     <script src="./js/script.js"></script>
