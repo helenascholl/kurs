@@ -18,17 +18,17 @@ body {
     margin: 0.3vw auto;
     padding: 0.3vw;
 }
-.list {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 67vh;
-}
 .wrapper {
     height: 80vh;
     box-sizing: border-box;
     width: 42vw;
     border: 1px solid black;
     overflow: hidden;
+}
+.wrapper div {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 67vh;
 }
 #buttons {
     height: 7vw;
