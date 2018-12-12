@@ -5,6 +5,7 @@ document.getElementById('buttonLeft').addEventListener('click', moveToLeft);
 document.getElementById('buttonRight').addEventListener('click', moveToRight);
 
 function addPeople() {
+    people.sort();
     for (let i in people) {
         let person = document.createElement('div');
         let rightList = document.getElementById('rightList');
