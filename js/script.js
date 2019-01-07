@@ -1,5 +1,5 @@
 const defaultBgColor = 'white';
-const selectedBgColor = 'gray';
+const selectedBgColor = 'lightgray';
 
 document.getElementById('buttonLeft').addEventListener('click', moveToLeft);
 document.getElementById('buttonRight').addEventListener('click', moveToRight);
